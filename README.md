@@ -10,7 +10,7 @@ https://github.com/ubisoft/mixer
 
 or
 
-`podman build -t blend-mixer`
+`podman build -t blend-mixer .`
 
 ## run
 
