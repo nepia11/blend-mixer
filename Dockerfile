@@ -1,6 +1,8 @@
 # https://github.com/ubisoft/mixer
 FROM python:3.8-slim-buster AS base
 
+LABEL org.opencontainers.image.source = "https://github.com/nepia11/blend-mixer"
+
 FROM base AS download
 RUN apt update -y
 RUN apt install wget unzip -y
